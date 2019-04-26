@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffffff</color>
+    <color name="black_1">#ff000000</color>
+    <color name="black_2">#ff1b1b1b</color>
+    <color name="black_5">#ff1d1d1d</color>
+    <color name="gray_1">#ff7c7c7c</color>
+    <color name="gray_2">#ff8d8d8d</color>
+    <color name="gray_4">#ffdbdbdb</color>
+    <color name="gray_5">#ffefefef</color>
+    <color name="gray_11">#ffd2d2d2</color>
+    <color name="gray_12">#ff8c8c8c</color>
+    <color name="red">#ffe81517</color>
+
+    <color name="black_1_15">#26000000</color>
+
+    <color name="toolbar_text">@color/white</color>
+    <color name="toolbar_hint_text">@color/gray_1</color>
+
+    <color name="primary">@color/black_2</color>
+    <color name="primary_dark">@color/black_1</color>
+    <color name="accent">@color/red</color>
+
+</resources>

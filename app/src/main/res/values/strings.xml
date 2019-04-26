@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Home Away</string>
+
+    <string name="google_static_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyBJ8FpHurNJQ0oyEhxY4U1HMAZ2xF_pv9w
+    </string>
+
+    <string name="search_hint">Search for places nearby</string>
+
+    <string name="search_no_results_response">Sorry, we couldn\'t find any matches for \"%s\"</string>
+
+    <string name="no_suggested_searches">No suggestions</string>
+
+    <string name="unavailable">Unavailable</string>
+    <string name="err_msg">Something went wrong. Please try later.</string>
+    <string name="suggested_searches">SUGGESTED SEARCHES</string>
+    <string name="venue_details_title">Venue Details</string>
+
+</resources>

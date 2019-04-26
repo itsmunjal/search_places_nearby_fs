@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/venue_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="@drawable/ripple_effect">
+
+    <ImageView
+        android:id="@+id/venue_category_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_toRightOf="@id/venue_category_image"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/venue_name"
+            android:layout_width="@dimen/venue_details_field_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/black_1"
+            android:textSize="@dimen/general_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/category_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="Venue Category" />
+
+        <TextView
+            android:id="@+id/distance_to_user_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="8 miles" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/favorite_status"
+        style="@style/wrap"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        android:padding="@dimen/general_padding"
+        android:src="@drawable/ic_favorite_black" />
+
+    <ImageView
+        android:id="@+id/non_favorite_status"
+        style="@style/wrap"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:src="@drawable/ic_favorite" />
+
+    <View
+        style="@style/list_separator"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/venue_category_image" />
+
+</RelativeLayout>
